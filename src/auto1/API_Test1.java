@@ -24,7 +24,7 @@ public class API_Test1 {
 		System.out.println(num);
 		OkHttpClient client = new OkHttpClient();
 		
-
+//
 		MediaType mediaType = MediaType.parse("application/json");
 		RequestBody body = RequestBody.create(mediaType, "{\r\n\r\n        \"login\": \"trash"+num+"@gmail.com\",\r\n        \"device_macs\":[\"000000000000\"],\r\n        \"user_def01\": \"000000000000\"\r\n\r\n       \r\n\r\n}");
 		Request request = new Request.Builder()

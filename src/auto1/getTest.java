@@ -25,7 +25,7 @@ public class getTest {
 	    
 	 
 	    
-	    
+	    //
 	    
 	    
 	    if (responseCode == HttpURLConnection.HTTP_OK) {
